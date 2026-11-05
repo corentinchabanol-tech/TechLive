@@ -1,0 +1,76 @@
+{
+  "version": "exercice-2.0",
+  "date_extraction": "2026-10-01",
+  "detentions": [
+    {
+      "id": "D01",
+      "client_id": "C01",
+      "produit_id": "P01",
+      "statut": "actif",
+      "garanties": [
+        "responsabilite_civile_auto",
+        "assistance_50km"
+      ],
+      "usage_declare": "privé",
+      "prime_mensuelle_eur": 42
+    },
+    {
+      "id": "D02",
+      "client_id": "C02",
+      "produit_id": null,
+      "statut": "actif_a_confirmer",
+      "garanties": [],
+      "assureur": "externe",
+      "description": "Contrat pour un instrument, garanties inconnues",
+      "prime_mensuelle_eur": null
+    },
+    {
+      "id": "D03",
+      "client_id": "C03",
+      "produit_id": "P01",
+      "statut": "actif",
+      "garanties": [
+        "responsabilite_civile_auto",
+        "assistance_50km"
+      ],
+      "usage_declare": "domicile-travail",
+      "prime_mensuelle_eur": 42
+    },
+    {
+      "id": "D04",
+      "client_id": "C04",
+      "produit_id": "P01",
+      "statut": "actif",
+      "garanties": [
+        "responsabilite_civile_auto",
+        "assistance_50km"
+      ],
+      "usage_declare": "privé",
+      "prime_mensuelle_eur": 42
+    },
+    {
+      "id": "D05",
+      "client_id": "C04",
+      "produit_id": "P02",
+      "statut": "actif",
+      "garanties": [
+        "assistance_0km",
+        "vehicule_remplacement"
+      ],
+      "prime_mensuelle_eur": 9
+    },
+    {
+      "id": "D06",
+      "client_id": "C05",
+      "produit_id": "P03",
+      "statut": "actif",
+      "garanties": [
+        "incendie",
+        "degats_des_eaux",
+        "responsabilite_civile_habitation"
+      ],
+      "prime_mensuelle_eur": 22
+    }
+  ],
+  "note": "Une liste vide signifie aucune détention connue dans ce jeu, pas une preuve d’absence de couverture externe."
+}

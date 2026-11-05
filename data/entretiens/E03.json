@@ -1,0 +1,57 @@
+{
+  "id": "E03",
+  "client_id": "C03",
+  "titre": "Transcription bruitée et budget ambigu",
+  "langue": "fr",
+  "source": "transcription_synthetique",
+  "segments": [
+    {
+      "id": "E03-S01",
+      "debut_secondes": 0,
+      "locuteur": "agent",
+      "texte": "Vous utilisez le véhicule pour aller au travail ?"
+    },
+    {
+      "id": "E03-S02",
+      "debut_secondes": 15,
+      "locuteur": "client",
+      "texte": "Oui enfin non pour le boulot parfois chez les clients deux fois semaine [inaudible]."
+    },
+    {
+      "id": "E03-S03",
+      "debut_secondes": 30,
+      "locuteur": "inconnu",
+      "texte": "Le budget c’est cinquante ou cent cinquante [coupure]."
+    },
+    {
+      "id": "E03-S04",
+      "debut_secondes": 45,
+      "locuteur": "client",
+      "texte": "J’ai pas besoin de voiture de prêt enfin si quand la mienne reste au garage."
+    },
+    {
+      "id": "E03-S05",
+      "debut_secondes": 60,
+      "locuteur": "agent",
+      "texte": "L’assistance est à cinquante kilomètres du [inaudible]."
+    },
+    {
+      "id": "E03-S06",
+      "debut_secondes": 75,
+      "locuteur": "client",
+      "texte": "Je croyais zéro kilomètre moi."
+    },
+    {
+      "id": "E03-S07",
+      "debut_secondes": 90,
+      "locuteur": "agent",
+      "texte": "On va vérifier le contrat. Vous avez une autre assurance ?"
+    },
+    {
+      "id": "E03-S08",
+      "debut_secondes": 105,
+      "locuteur": "client",
+      "texte": "La carte bancaire peut-être je sais pas [fin de transcription]."
+    }
+  ]
+}

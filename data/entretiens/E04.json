@@ -1,0 +1,57 @@
+{
+  "id": "E04",
+  "client_id": "C04",
+  "titre": "Contradiction et garantie déjà détenue",
+  "langue": "fr",
+  "source": "transcription_synthetique",
+  "segments": [
+    {
+      "id": "E04-S01",
+      "debut_secondes": 0,
+      "locuteur": "agent",
+      "texte": "Le dossier indique un usage privé de votre véhicule. Est-ce toujours exact ?"
+    },
+    {
+      "id": "E04-S02",
+      "debut_secondes": 15,
+      "locuteur": "client",
+      "texte": "Oui, uniquement privé."
+    },
+    {
+      "id": "E04-S03",
+      "debut_secondes": 30,
+      "locuteur": "agent",
+      "texte": "Souhaitez-vous ajouter un véhicule de remplacement ?"
+    },
+    {
+      "id": "E04-S04",
+      "debut_secondes": 45,
+      "locuteur": "client",
+      "texte": "Je crois avoir déjà cette option chez vous."
+    },
+    {
+      "id": "E04-S05",
+      "debut_secondes": 60,
+      "locuteur": "agent",
+      "texte": "Je vais vérifier. Vous avez d’autres usages occasionnels ?"
+    },
+    {
+      "id": "E04-S06",
+      "debut_secondes": 75,
+      "locuteur": "client",
+      "texte": "Je livre des repas avec le véhicule le soir, trois fois par semaine."
+    },
+    {
+      "id": "E04-S07",
+      "debut_secondes": 90,
+      "locuteur": "agent",
+      "texte": "Cela nécessite de vérifier les conditions du produit avant une proposition."
+    },
+    {
+      "id": "E04-S08",
+      "debut_secondes": 105,
+      "locuteur": "client",
+      "texte": "Je ne veux pas payer deux fois la même garantie. Mon maximum reste 70 euros par mois."
+    }
+  ]
+}

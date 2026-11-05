@@ -1,0 +1,69 @@
+{
+  "id": "E01",
+  "client_id": "C01",
+  "titre": "Mobilité et déplacements professionnels",
+  "langue": "fr",
+  "source": "transcription_synthetique",
+  "segments": [
+    {
+      "id": "E01-S01",
+      "debut_secondes": 0,
+      "locuteur": "agent",
+      "texte": "Bonjour, pour quel usage souhaitez-vous assurer votre voiture ?"
+    },
+    {
+      "id": "E01-S02",
+      "debut_secondes": 15,
+      "locuteur": "client",
+      "texte": "Je suis infirmière libérale. Je fais mes tournées avec ma voiture, environ 18 000 kilomètres par an."
+    },
+    {
+      "id": "E01-S03",
+      "debut_secondes": 30,
+      "locuteur": "agent",
+      "texte": "Avez-vous une autre voiture disponible si celle-ci tombe en panne ?"
+    },
+    {
+      "id": "E01-S04",
+      "debut_secondes": 45,
+      "locuteur": "client",
+      "texte": "Non, et sans voiture je ne peux pas travailler. Je voudrais rester autour de 65 euros par mois."
+    },
+    {
+      "id": "E01-S05",
+      "debut_secondes": 60,
+      "locuteur": "agent",
+      "texte": "Votre formule actuelle est Auto Essentiel. Elle ne comprend pas le véhicule de remplacement."
+    },
+    {
+      "id": "E01-S06",
+      "debut_secondes": 75,
+      "locuteur": "client",
+      "texte": "Je transporte mon matériel, mais je ne transporte pas de patients."
+    },
+    {
+      "id": "E01-S07",
+      "debut_secondes": 90,
+      "locuteur": "agent",
+      "texte": "Je propose de vérifier votre usage professionnel et d’étudier Mobilité Plus pour maintenir vos déplacements."
+    },
+    {
+      "id": "E01-S08",
+      "debut_secondes": 105,
+      "locuteur": "agent",
+      "texte": "Cette option est à 9 euros par mois, avec trois jours de véhicule de remplacement. La livraison rémunérée est exclue."
+    },
+    {
+      "id": "E01-S09",
+      "debut_secondes": 120,
+      "locuteur": "client",
+      "texte": "Trois jours pourraient être courts. Je veux connaître les conditions avant de décider."
+    },
+    {
+      "id": "E01-S10",
+      "debut_secondes": 135,
+      "locuteur": "agent",
+      "texte": "Je vais vous transmettre le récapitulatif. Nous ne finalisons rien aujourd’hui."
+    }
+  ]
+}

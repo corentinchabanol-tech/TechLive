@@ -1,0 +1,63 @@
+{
+  "id": "E02",
+  "client_id": "C02",
+  "titre": "Déménagement et informations manquantes",
+  "langue": "fr",
+  "source": "transcription_synthetique",
+  "segments": [
+    {
+      "id": "E02-S01",
+      "debut_secondes": 0,
+      "locuteur": "client",
+      "texte": "Je déménage dans une maison le mois prochain. Je veux une assurance habitation."
+    },
+    {
+      "id": "E02-S02",
+      "debut_secondes": 15,
+      "locuteur": "agent",
+      "texte": "Vous êtes propriétaire ou locataire ?"
+    },
+    {
+      "id": "E02-S03",
+      "debut_secondes": 30,
+      "locuteur": "client",
+      "texte": "Propriétaire. Il y a un sous-sol où je stocke des meubles et mon matériel de musique."
+    },
+    {
+      "id": "E02-S04",
+      "debut_secondes": 45,
+      "locuteur": "agent",
+      "texte": "Quelle est la valeur de ce matériel ?"
+    },
+    {
+      "id": "E02-S05",
+      "debut_secondes": 60,
+      "locuteur": "client",
+      "texte": "Je ne sais pas, il faudrait que je regarde les factures."
+    },
+    {
+      "id": "E02-S06",
+      "debut_secondes": 75,
+      "locuteur": "agent",
+      "texte": "Nous avons une option pour les biens de valeur."
+    },
+    {
+      "id": "E02-S07",
+      "debut_secondes": 90,
+      "locuteur": "client",
+      "texte": "J’ai déjà une assurance pour un instrument, je ne sais plus exactement ce qu’elle couvre."
+    },
+    {
+      "id": "E02-S08",
+      "debut_secondes": 105,
+      "locuteur": "agent",
+      "texte": "Je vous envoie une proposition."
+    },
+    {
+      "id": "E02-S09",
+      "debut_secondes": 120,
+      "locuteur": "client",
+      "texte": "D’accord, mais je veux d’abord comparer le prix."
+    }
+  ]
+}

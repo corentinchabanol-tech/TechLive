@@ -1,0 +1,123 @@
+{
+  "version": "exercice-3.0",
+  "documents": [
+    {
+      "doc_id": "FICHE-AUTO-V1",
+      "path": "documents/auto/fiche_garanties.md",
+      "famille": "auto",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P01",
+        "P02"
+      ],
+      "section_ids": [
+        "P01",
+        "P02"
+      ]
+    },
+    {
+      "doc_id": "NOTICE-AUTO-V1",
+      "path": "documents/auto/notice_information.md",
+      "famille": "auto",
+      "type": "notice_information",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P01",
+        "P02"
+      ],
+      "section_ids": [
+        "N1",
+        "N2",
+        "N3"
+      ]
+    },
+    {
+      "doc_id": "FICHE-HABITATION-V1",
+      "path": "documents/habitation/fiche_garanties.md",
+      "famille": "habitation",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P03",
+        "P04"
+      ],
+      "section_ids": [
+        "P03",
+        "P04"
+      ]
+    },
+    {
+      "doc_id": "NOTICE-HABITATION-V1",
+      "path": "documents/habitation/notice_information.md",
+      "famille": "habitation",
+      "type": "notice_information",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P03",
+        "P04"
+      ],
+      "section_ids": [
+        "N1",
+        "N2",
+        "N3"
+      ]
+    },
+    {
+      "doc_id": "FICHE-MOBILITE-V1",
+      "path": "documents/mobilite/fiche_garanties.md",
+      "famille": "mobilite",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P05"
+      ],
+      "section_ids": [
+        "P05"
+      ]
+    },
+    {
+      "doc_id": "NOTICE-MOBILITE-V1",
+      "path": "documents/mobilite/notice_information.md",
+      "famille": "mobilite",
+      "type": "notice_information",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P05"
+      ],
+      "section_ids": [
+        "N1",
+        "N2",
+        "N3"
+      ]
+    },
+    {
+      "doc_id": "FICHE-PROTECTION-V1",
+      "path": "documents/protection/fiche_garanties.md",
+      "famille": "protection",
+      "type": "fiche_garanties",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P06"
+      ],
+      "section_ids": [
+        "P06"
+      ]
+    },
+    {
+      "doc_id": "NOTICE-PROTECTION-V1",
+      "path": "documents/protection/notice_information.md",
+      "famille": "protection",
+      "type": "notice_information",
+      "version": "exercice-1.0",
+      "produit_ids": [
+        "P06"
+      ],
+      "section_ids": [
+        "N1",
+        "N2",
+        "N3"
+      ]
+    }
+  ]
+}
