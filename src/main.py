@@ -3,10 +3,17 @@ import os
 import json
 from typing import List
 
-from src.models import Segment
+from src.models import Controle, Segment, Besoin
 from pydantic import BaseModel
 from ollama import chat
 from src.utils import normalize_segment
+
+### class pydantic for structured output generation
+class BesoinArray(BaseModel):
+  besoins: List[Besoin]
+
+class ControleArray(BaseModel):
+  controles: List[Controle]
 
 MODEL = 'qwen:4b'
 
@@ -27,6 +34,8 @@ def call(prompt: str) -> str:
 
 DATA_DIR = '../data'
 ENTRETIEN_DIR = os.path.join(DATA_DIR, 'entretiens')
+REGLES_PATH = os.path.join(DATA_DIR, 'regles.json')
+
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -40,21 +49,45 @@ if __name__ == '__main__':
     transcript: List[Segment] = json.load(f)
 
   report = None
+  stringify_transcript = '\n'.join(normalize_segment(seg) for seg in transcript)
 
   try:
     # 1ere étape - synthèse
     synthese = call(
       f"""Fais moi un synthèses brève en quelque phrases de cet échange entre un collaborateur AXA et un client:
-      {'\n'.join(normalize_segment(seg) for seg in transcript)}
+      {stringify_transcript}
       """
+    )
+
+    # 2 - les besoins clients
+
+    besoins: BesoinArray = call_strucured_output(
+      f"""
+      Extrais les besoins exprimés par l'interlocuteur "client" en citant l'id du segment qui l'exprime:
+      {stringify_transcript}
+""",
+      BesoinArray
+    )
+
+    # 3 - analyse des règles
+
+    rules_prompt: str = # TODO
+    controles: ControleArray = call_strucured_output(
+      f"""
+Pour chaqu'une des règles sous cités analyse son respect au vu du transcript
+{rules_prompt}
+
+{stringify_transcript}
+""",
+      ControleArray
     )
 
     report = Report(
         entretien_id = entretien_id,
         statut_execution = 'ok',
         synthese = synthese,
-        besoins: List[Besoin] # Génération structuré depuis la liste des segments
-        controles: List[Controle] # Est ce que R01-05 Généré par LLM Envoi des 5 règles + transcript et générations structurés sur schéma avec les 5 règles
+        besoins = besoins.besoins,
+        controles = controles.controles
         recommandations: List[Recommendation] # Codes produits suggérés (+ un raisonnement ?) Généré par llm Envoie transcript avec segid + Ref produit 
         sources_documentaires: List[ReferenceDocumentaire] # Ref des md
         questions_a_poser: List[str] # Généré par LLM
